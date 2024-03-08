@@ -1,10 +1,10 @@
-import { Button } from "@mui/material"
+import Routing from "./Routes/Routing"
 
 function App() {
 
   return (
     <>
-      <p>Teste</p>
+      <Routing />
     </>
   )
 }

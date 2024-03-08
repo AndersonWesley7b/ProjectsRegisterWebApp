@@ -1,18 +1,25 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material";
 
-// Create a theme instance.
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#553C9A',
-    },
-    secondary: {
-      main: '#9F7AEA',
-    },
-    error: {
-      main: '#E53E3E',
-    },
+export const theme = createTheme({
+  typography: {
+    fontFamily:''
   },
+  palette: {
+    secondary: {
+      light: '#b294ee',
+      main: '#9f7aea',
+      dark: '#6f55a3',
+      contrastText: '#000',
+    },
+    primary: {
+      light: '#9863ae',
+      main: '#7F3C9A',
+      dark: '#582a6b',
+      contrastText: '#FFF',
+    },
+    background: {
+      default: '#eee'
+    }
+    
+  }
 });
-
-export default theme;
