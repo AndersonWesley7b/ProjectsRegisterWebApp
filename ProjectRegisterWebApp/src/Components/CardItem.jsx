@@ -10,9 +10,8 @@ export default function CardItem({ Content }) {
           borderRadius: 2,
           margin: 1,
           bgcolor: 'background.default',
-          display: 'grid',
-          gridTemplateColumns: { md: '1fr 1fr' },
-          gap: 2,
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
         {Content}
